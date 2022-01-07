@@ -1,0 +1,7 @@
+{
+  "/v2": {
+    "target": "https://api.nytimes.com/svc/topstories",
+    "secure": false
+   
+  }
+}
