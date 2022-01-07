@@ -1,0 +1,10 @@
+<div class="news-container">
+    <div class="news-card card " style="width:400px" *ngFor="let article of newsArray ">
+        <img class="card-img-top" src="assets/news.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">{{article.byline}}</h4>
+            <p class="card-text">{{article.abstract}}</p>
+            <a href="#" class="btn btn-primary stretched-link">View More</a>
+        </div>
+    </div>
+</div>
